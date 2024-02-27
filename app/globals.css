@@ -20,3 +20,46 @@
 body {
   font-size: 14px;
 }
+
+.curve1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve1 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  transform: scaleX(1.5);
+}
+
+.curve1 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.curve2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  transform: scaleX(1.5);
+}
+
+.curve2 .shape-fill {
+  fill: #FFFFFF;
+}
