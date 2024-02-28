@@ -9,9 +9,9 @@ function Services() {
       }
 
     return (
-        <section className="flex flex-col items-center justify-center px-[10%] py-20 gap-12 sm:mx-4 sm:py-8">
+        <section id="services" className="flex flex-col items-center justify-center px-[10%] py-20 gap-12 sm:px-6 sm:py-8">
             <h1 className="text-[var(--primary)] text-3xl font-bold text-center">O QUE VOCÊ <span className="text-[var(--accent)]">PRECISA?</span></h1>
-            <div className="flex flex-wrap gap-12 justify-between pb-12 sm:gap-4 sm:justify-center">
+            <div className="flex flex-wrap gap-12 justify-between pb-12 sm:gap-2 sm:justify-around">
                 {
                     services.map((service, index) => (
                         <div key={index} className="flex flex-col justify-between items-center cursor-pointer hover:scale-125 transition duration-500 ease-in-out sm:hover:scale-100 sm:w-[130px] sm:text-center">

@@ -7,7 +7,7 @@ import Whatsapp from "./Whatsapp";
 
 function About() {
     return (
-        <section className="flex items-center justify-between px-[10%] py-16 pt-28 sm:mx-6 sm:flex-col sm:pt-12 sm:items-center sm:justify-center sm:gap-8">
+        <section id="about" className="flex items-center justify-between px-[10%] py-16 pt-28 sm:mx-6 sm:flex-col sm:pt-12 sm:items-center sm:justify-center sm:gap-8">
             <Image src="/sobre.webp" width={500} height={500} alt="sofa" />
             <div className="flex flex-col gap-8 items-center sm:justify-center">
                 <div className="flex flex-col gap-4">

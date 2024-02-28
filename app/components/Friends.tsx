@@ -23,7 +23,7 @@ function Friends() {
                     </div>
                     <div className="bg-green-50 border border-green-400 flex rounded-md p-3 items-center gap-4 text-green-600 sm:w-full">
                         <FaBacteria size={36} />
-                        <p className="font-bold">Quer eliminar fungos, bactérias e ácaros?</p>
+                        <p className="font-bold leading-tight">Quer eliminar fungos, bactérias e ácaros?</p>
                     </div>
                 </div>
             </div>

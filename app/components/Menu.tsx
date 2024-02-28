@@ -13,10 +13,10 @@ function Menu() {
         <Image src="/logomarca.webp" alt="Logo" width={150} height={40} />
       </a>
       <div className="flex items-center gap-8 sm:hidden">
-        <a href="#" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Início</a>
-        <a href="#" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Quem somos</a>
-        <a href="#" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Serviços</a>
-        <a href="#" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Resultados</a>
+        <a href="#home" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Início</a>
+        <a href="#about" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Quem somos</a>
+        <a href="#services" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Serviços</a>
+        <a href="#results" className="text-white hover:text-[var(--accent)] transition duration-300 ease-in-out">Resultados</a>
         <Button text="Orçamento" style="py-2" onClick={handleWhatsapp} icon={<BsWhatsapp size={18} />} />
       </div>
       <Button text="Orçamento" style="py-2 lg:hidden md:hidden sm:py-3" onClick={handleWhatsapp} icon={<BsWhatsapp size={18} />} />
