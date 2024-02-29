@@ -6,7 +6,7 @@ function BeforeAfter() {
         boundsPadding={0}
         keyboardIncrement="5%"
         position={50}
-        className='w-[860px] h-[400px] sm:w-full sm:h-[220px]'
+        className='w-[860px] h-[400px] sm:w-full sm:h-[220px] md:w-full md:h-[350px]'
         itemOne={<ReactCompareSliderImage src="/before.webp" srcSet="/after.webp" alt="Image one" />}
         itemTwo={<ReactCompareSliderImage src="/after.webp" srcSet="/before.webp" alt="Image two" />}
         />

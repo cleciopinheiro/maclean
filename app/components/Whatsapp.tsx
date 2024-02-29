@@ -10,7 +10,7 @@ function Whatsapp() {
   return (
     <div
       onClick={handleWhatsapp}
-      className="flex bg-[var(--primary)] w-[80%] h-16 rounded-md text-white justify-between items-center px-4 py-4 cursor-pointer sm:w-full"
+      className="flex bg-[var(--primary)] w-[80%] h-16 rounded-md text-white justify-between items-center px-4 py-4 cursor-pointer sm:w-full md:w-full"
     >
       <div className="flex gap-4">
         <Image 
